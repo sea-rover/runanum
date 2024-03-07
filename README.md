@@ -14,7 +14,8 @@
     2557224 яблока<br>
 </div><br> 
 
-Например: <br>
+<div>
+<i>Например:<i><br>
 
 ```rust
 use runanum::Cases;
@@ -30,5 +31,4 @@ fn main() {
     println!("5 {result}");
 }
 ```
-
-
+</div>
