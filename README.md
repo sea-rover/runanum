@@ -15,7 +15,7 @@
 </div><br> 
 
 <div>
-<i>Например:<i><br>
+<i>Например:</i><br>
 
 ```rust
 use runanum::Cases;
