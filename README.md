@@ -4,7 +4,7 @@
     n   - nouns<br>
     a   - after<br>
     num - numbers<br>
-</div><br><br> 
+</div><br> 
 
 <div>
 Небольшой растовый лефтпадик для корректных окончаний существительных после чисел:<br>
@@ -12,4 +12,23 @@
     5 яблок<br>
     21 яблоко<br>
     2557224 яблока<br>
-</div>    
+</div><br> 
+
+Например: <br>
+
+```rust
+use runanum::Cases;
+
+fn main() {
+    let cases = Cases { 
+        nom: "яблоко",
+        gen: "яблока",
+        plu: "яблок"
+    };
+    let result = runanum::crun(5, &cases);
+
+    println!("5 {result}");
+}
+```
+
+
