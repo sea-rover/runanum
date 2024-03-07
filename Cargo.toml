@@ -1,0 +1,10 @@
+[package]
+name = "runanum"
+authors = [ "sea_rover" ]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Существительные с правильными окончаниями после чисел"
+repository = "https://github.com/sea-rover/runanum.git"
+
+[dependencies]
